@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="style.css"> 
+		<title>Creating New Account</title>
+	</head>
+	<body>
+		<div class="sign-up-form">
+			<center><h1 style="color: white">Buat Account Baru!</h1></center>
+			<center><h2 style="color: white">Sign Up Form</h3></center>
+		<form action="welcome.html">
+			<label for="fname"><p style="color:white;font-size:20px"><br>First Name</p></label>
+			<input type="text" id="fname" name="firstname" placeholder="Your First Name..">
+			<label for="lname"><p style="color:white;font-size:20px">Last Name</p></label>
+			<input type="text" id="lname" name="lastname" placeholder="Your Last Name.."><br><br>
+			
+			<label>Gender</label><br><br>
+			<input type="radio" id="male" name="gender" value="male">
+			<label for="male">Male</label><br>
+			<input type="radio" id="female" name="gender" value="female">
+			<label for="female">Female</label><br>
+			<input type="radio" id="other" name="gender" value="other">
+			<label for="other">Other</label><br>
+			<br><br>
+			<label for="country">Nationality</label><br><br>
+				<select id="country" name="country">
+		    <option value="indonesia">Indonesia</option>
+		    <option value="malaysia">Malaysia</option>
+   			<option value="singapura">Singapura</option>
+   			<option value="myanmar">Myanmar</option>
+		    <option value="thailand">Thailand</option>
+   			<option value="vietnam">Vietnam</option>
+  				</select>
+  			<br>
+  			  <label>Language Spoken</label><br><br>
+  			  <input type="checkbox" id="bahasa1" name="bahasa1" value="bhsindonesia">
+			  <label for="bahasa1"> Bahasa Indonesia</label><br>
+			  <input type="checkbox" id="bahasa2" name="bahasa2" value="bhsenglish">
+			  <label for="bahasa2"> English</label><br>
+			  <input type="checkbox" id="bahasa3" name="bahasa3" value="other">
+			  <label for="bahasa3"> Other </label><br><br>
+
+			  <label for="bio">Bio : </label><br><br>
+			  <textarea id="bio" name="bio" rows="8" cols="50">
+  			  </textarea>
+				<br><br>
+
+
+			  <input type="submit" value="Sign Up">
+
+		
+		</form>
+		 	
+			
+		</div>
+	</body>
+</html>
